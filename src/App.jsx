@@ -6,7 +6,11 @@ import SideProjects from './side-projects';
 
 function App() {
   return (
-    <div>Davide</div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/portfolio' element={<Portfolio />} />
+      <Route path="/sideprojects" element={<SideProjects />} />
+    </Routes>
   );
 }
 
