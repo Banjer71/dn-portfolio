@@ -1,0 +1,22 @@
+.home-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 12px;
+}
+
+.card img {
+  width: 100%;
+  margin: 0 auto;
+ 
+}
